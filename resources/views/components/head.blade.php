@@ -1,0 +1,87 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Puskesmas SukaHati | {{ $title }}</title>
+<!--begin::Accessibility Meta Tags-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+<!--end::Accessibility Meta Tags-->
+<!--begin::Primary Meta Tags-->
+<meta name="title" content="AdminLTE v4 | Dashboard" />
+<meta name="author" content="ColorlibHQ" />
+<meta name="description"
+    content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS. Fully accessible with WCAG 2.1 AA compliance." />
+<meta name="keywords"
+    content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard, accessible admin panel, WCAG compliant" />
+<!--end::Primary Meta Tags-->
+<!--begin::Accessibility Features-->
+<!-- Skip links will be dynamically added by accessibility.js -->
+<meta name="supported-color-schemes" content="light dark" />
+<link rel="preload" href="{{ asset('./assets/css/adminlte.css') }}" as="style" />
+<!--end::Accessibility Features-->
+<!--begin::Fonts-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
+    integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous" media="print"
+    onload="this.media='all'" />
+{{-- Plus Jakarta Sans & Instrument Serif for modern UI --}}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet" />
+<!--end::Fonts-->
+<!--begin::Third Party Plugin(OverlayScrollbars)-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/styles/overlayscrollbars.min.css"
+    crossorigin="anonymous" />
+<!--end::Third Party Plugin(OverlayScrollbars)-->
+<!--begin::Third Party Plugin(Bootstrap Icons)-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    crossorigin="anonymous" />
+<!--end::Third Party Plugin(Bootstrap Icons)-->
+<!--begin::Bootstrap CSS (MUST load before custom CSS)-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+<!--end::Bootstrap CSS-->
+<!--begin::DataTables CSS-->
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.7/css/dataTables.bootstrap5.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.8/css/responsive.bootstrap5.css"
+    crossorigin="anonymous" />
+<!--end::DataTables CSS-->
+<!--begin::Required Plugin(AdminLTE)-->
+<link rel="stylesheet" href="{{ asset('./assets/css/adminlte.css') }}" />
+<!--end::Required Plugin(AdminLTE)-->
+<!-- apexcharts -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
+    integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous" />
+<!-- jsvectormap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css"
+    integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4=" crossorigin="anonymous" />
+<!--begin::Navbar & Theme Styles (Modern & Clean - Single File - LAST to override all)-->
+<link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+<!--end::Navbar & Theme Styles-->
+<!--begin::Dashboard Styles-->
+<link rel="stylesheet" href="{{ asset('css/dashboard.css') }}" />
+<!--end::Dashboard Styles-->
+
+<!--begin::Third Party Libraries (Error Pages)-->
+{{-- Google Fonts: Inter + Space Mono --}}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+{{-- Three.js --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+{{-- GSAP --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+
+{{-- DATA TABLES JS (jQuery must load first) --}}
+<script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.7/js/dataTables.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.7/js/dataTables.bootstrap5.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/responsive/3.0.8/js/responsive.bootstrap5.js" crossorigin="anonymous"></script>
+
+<!--end::Third Party Libraries (Error Pages)-->
+</head>

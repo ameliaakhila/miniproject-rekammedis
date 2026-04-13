@@ -17,6 +17,6 @@ class JenisKelamin extends Model
 
     public function pasien()
     {
-        return $this->hasMany(Pasien::class);
+        return $this->hasMany(Pasien::class); 
     }
 }
